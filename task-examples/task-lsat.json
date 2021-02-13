@@ -1,0 +1,562 @@
+[
+  {
+    "id": 1,
+    "choices": {
+      "A": {
+        "text": "John prefers to work out in the morning.",
+        "explanation": ""
+      },
+      "B": {
+        "text": "The average professional bodybuilder is considerably heavier and taller than the average NFL linebacker.",
+        "explanation": "John may be the size of an NFL linebacker, but if this statement is true, then John may not look like a professional bodybuilder."
+      },
+      "C": {
+        "text": "John weighed considerably less before he started working out.",
+        "explanation": ""
+      },
+      "D": {
+        "text": "John's father, brothers, and male cousins all look like professional bodybuilders, and none of them have ever worked out.",
+        "explanation": "John's family doesn't work out and still looks like professional bodybuilders. Years of gym time may not be the reason for John's size."
+      }
+    },
+    "question": "John looks like a professional bodybuilder. He weighs 210 pounds and stands six feet tall, which is the size of an NFL linebacker. John looks huge when he enters the room. Years of gym time have clearly paid off in spades.",
+    "prompt": "Which of the following, if true, weakens the argument?",
+    "answer": "D",
+    "jarvisAnswer1": "D",
+    "jarvisAnswer2": "B",
+    "jarvisConf1": "0.5429",
+    "jarvisConf2": "0.2497"
+  },
+  {
+    "id": 3,
+    "choices": {
+      "A": {
+        "text": "The most lucrative and popular pharmaceuticals are not always the most effective.",
+        "explanation": "The argument discusses Quillium's popularity and monetary value and concludes it is the most effective drug. If lucrative and popular pharmaceuticals were not actually an indication of a drug's effectiveness, the argument would be weakened."
+      },
+      "B": {
+        "text": "Quillium passed the FDA drug testing and screening faster than any other drug.",
+        "explanation": ""
+      },
+      "C": {
+        "text": "Giant Pharma gouges its customers on Quillium's price.",
+        "explanation": "If true, Quillium's high valuations may due to it's price gouging, not its effectiveness, weakening the overall argument."
+      },
+      "D": {
+        "text": "Giant Pharma's high stock prices are attributable to recent patent acquisitions other than Quillium.",
+        "explanation": "If there are other patents causing Giant Pharma's high stock prices, then Quillum may not be the sole reason for the increase, and we cannot conclude anything about Quillum's effectiveness as a drug."
+      }
+    },
+    "question": "Quillium is the most popular blood pressure-regulating prescription drug on the market. Giant Pharma, Inc., the largest prescription drug manufacturer in the country, owns the patent on Quillium. Giant Pharma stock is hitting unprecedented high valuations. As a result, Quillium is by far the most effective drug available in treating irregular blood pressure.",
+    "prompt": "Which of the following, if true, most weakens the argument?",
+    "answer": "A",
+    "jarvisAnswer1": "A",
+    "jarvisAnswer2": "D",
+    "jarvisConf1": "0.982",
+    "jarvisConf2": "0.0136"
+  },
+  {
+    "id": 4,
+    "choices": {
+      "A": {
+        "text": "David Foster Wallace's Infinite Jest is the holy grail of modern literature.",
+        "explanation": "This answer restates the first sentence of the passage."
+      },
+      "B": {
+        "text": "Infinite Jest is a page-turner.",
+        "explanation": ""
+      },
+      "C": {
+        "text": "Infinite Jest will stand the test of time.",
+        "explanation": "This is stated directly in the passage, and summarizes the other sentences."
+      },
+      "D": {
+        "text": "Infinite Jest is a modern classic for good reason and everybody should read it.",
+        "explanation": "This answer references the argument's main points --- Infinite Jest is a modern classic, deserves praise, and should be read by everyone."
+      }
+    },
+    "question": "David Foster Wallace's Infinite Jest is the holy grail of modern literature. It will stand the test of time in its relevance. Every single person who starts reading Infinite Jest cannot physically put down the book until completing it.",
+    "prompt": "Which of the following is the main point of the passage?",
+    "answer": "D",
+    "jarvisAnswer1": "A",
+    "jarvisAnswer2": "C",
+    "jarvisConf1": "0.6797",
+    "jarvisConf2": "0.1859"
+  },
+  {
+    "id": 5,
+    "choices": {
+      "A": {
+        "text": "Michael Scott Paperless Company released an extremely popular mobile application shortly before hiring Julia.",
+        "explanation": "This answer provides an alternate explanation for why the valuation of the company is so high. It may in fact be due to the successful app, and not Julia's hiring."
+      },
+      "B": {
+        "text": "Michael Scott Paperless Company is wildly overvalued.",
+        "explanation": "Since the company is wildly overvalued, Julia is not the reason for the valuation."
+      },
+      "C": {
+        "text": "Julia only started working two weeks before the valuation.",
+        "explanation": ""
+      },
+      "D": {
+        "text": "Julia completed two important projects during her first month with the company.",
+        "explanation": "If Julia only completed two important projects, she should not be the reason for the high valuation."
+      }
+    },
+    "question": "Julia joined Michael Scott Paperless Company, a small New York based tech start-up company, last month. Michael Scott Paperless recently received a valuation of ten million dollars. Julia is clearly the reason for the valuation.",
+    "prompt": "Which of the following statements, if true, most weakens the argument?",
+    "answer": "A",
+    "jarvisAnswer1": "A",
+    "jarvisAnswer2": "D",
+    "jarvisConf1": "0.9504",
+    "jarvisConf2": "0.0276"
+  },
+  {
+    "id": 9,
+    "choices": {
+      "A": {
+        "text": "Jake took a class on insider trading.",
+        "explanation": "Jake started before employees were required to take a class on insider trading."
+      },
+      "B": {
+        "text": "Jake passed a certification course.",
+        "explanation": "Jake is an employee of BCA, and only some BCA employees must pass a certification course. Therefore, Jake has not necessarily passed a certification course."
+      },
+      "C": {
+        "text": "Jake never took a class on insider trading.",
+        "explanation": "Jake is an employee of BCA. All BCA employees must complete a mandatory class on insider trading. Therefore, it cannot be true that Jake has never taken a class on insider trading."
+      },
+      "D": {
+        "text": "No investment bank has ever been formally charged with insider trading.",
+        "explanation": "Since every bank has dozens of lawyers to defend against insider-trading,  there is no way a bank has ever been formally charged with it."
+      }
+    },
+    "question": "Jake works for Bank Conglomerate of America (BCA), the largest investment bank in the United States. Jake has worked at Bank Conglomerate of America for a decade. Every American investment bank employs dozens of lawyers to defend against insider-trading allegations. Some Bank Conglomerate of America employees must pass a certification course. However, all employees must complete a mandatory class on insider trading.",
+    "prompt": "If the statements above are correct, which of the following must not be true?",
+    "answer": "C",
+    "jarvisAnswer1": "A",
+    "jarvisAnswer2": "D",
+    "jarvisConf1": "0.603",
+    "jarvisConf2": "0.1448"
+  },
+  {
+    "id": 11,
+    "choices": {
+      "A": {
+        "text": "A war between the world powers was extremely likely.",
+        "explanation": "The passage states that multiple world powers' military alliances entered into complicated military alliances, so any event would have set off a world war. It need not have been Franz Ferdinand's assasination."
+      },
+      "B": {
+        "text": "World War I never would have happened.",
+        "explanation": "If he weren't assassinated, we don't know if World War I would have happened."
+      },
+      "C": {
+        "text": "England, France, and Russia would have started the war.",
+        "explanation": ""
+      },
+      "D": {
+        "text": "The world powers would still be in complicated and convoluted military alliances.",
+        "explanation": "The passage states that multiple world powers' military alliances were already in complicated military alliances. Franz Ferdinand's assasination would not have changed this."
+      }
+    },
+    "question": "The assassination of Archduke Franz Ferdinand of Austria is often ascribed as the cause of World War I. However, the assassination merely lit the fuse in a combustible situation since many of the world powers were in complicated and convoluted military alliances. For example, England, France, and Russia entered into a mutual defense treaty seven years prior to World War I. Even without Franz Ferdinand's assassination ____________.",
+    "prompt": "Which of the following most logically completes the passage?",
+    "answer": "A",
+    "jarvisAnswer1": "A",
+    "jarvisAnswer2": "B",
+    "jarvisConf1": "0.8658",
+    "jarvisConf2": "0.1014"
+  },
+  {
+    "id": 12,
+    "choices": {
+      "A": {
+        "text": "Whether children play the sport has no impact on the NFL's popularity.",
+        "explanation": "If true, then preventing children from playing football will not cause any decline on the NFL's popularity."
+      },
+      "B": {
+        "text": "Scientific studies of brain trauma are inconclusive as to long-term effects.",
+        "explanation": "Since the scientific studies are inconclusive for long-term effects, it is unclear whether safety concerns will actually weaken the NFL's popularity."
+      },
+      "C": {
+        "text": "Removing helmets would reduce head collisions by fifty percent.",
+        "explanation": ""
+      },
+      "D": {
+        "text": "No matter the danger, there will always be players willing to sign waivers and play.",
+        "explanation": "This answer states that there will always be a pool of players willing to play regardless of health concerns. Therefore, the safety concerns raised in the passage are irrelevant, and it weakens the argument that the NFL will decline in popularity."
+      }
+    },
+    "question": "Football is unsafe regardless of the precautions undertaken or rule changes implemented. Repeated head trauma always leads to long-term head injury. Parents are already refusing to allow their children to play youth football. Eventually, nobody will want to play football due to safety concerns. Therefore, the NFL will dramatically decline in popularity.",
+    "prompt": "Which of the following, if true, most weakens the argument?",
+    "answer": "D",
+    "jarvisAnswer1": "D",
+    "jarvisAnswer2": "A",
+    "jarvisConf1": "0.9439",
+    "jarvisConf2": "0.0443"
+  },
+  {
+    "id": 15,
+    "choices": {
+      "A": {
+        "text": "The argument relies on ad hominem attacks to discredit the Dalai Lama.",
+        "explanation": ""
+      },
+      "B": {
+        "text": "The argument's extreme language detracts from its logical coherence.",
+        "explanation": "The use of extreme language to describe the Dalai Lama's beliefs makes the argument less coherent."
+      },
+      "C": {
+        "text": "The argument cites an inappropriate expert.",
+        "explanation": "The Dalai Lama is a world leader in humanistic values and religious harmony. However, the argument claims him as an international domestic policy expert and cites his beliefs on America's gun violence issues."
+      },
+      "D": {
+        "text": "The argument confuses correlation with causation.",
+        "explanation": "The Dalai Lama belief relies on the correlation of gun violence in America and stricter background check legislation, but this relationship is not causal."
+      }
+    },
+    "question": "Although China considers him a threat against the state, the Dalai Lama is one of the most popular world leaders according to recent polls. People across the globe respect the Dalai Lama\u2019s commitment to religious harmony, self-determination, and humanistic values. The Dalai Lama believes that gun violence in America can only be solved by stricter background check legislation. With any luck, Congress will pass the bill during its next session.",
+    "prompt": "Which one of the following best describes the flaw in the author's reasoning?",
+    "answer": "C",
+    "jarvisAnswer1": "C",
+    "jarvisAnswer2": "B",
+    "jarvisConf1": "0.4857",
+    "jarvisConf2": "0.2842"
+  },
+  {
+    "id": 17,
+    "choices": {
+      "A": {
+        "text": "The argument justifies its conclusion based on a hasty generalization.",
+        "explanation": "Clearly buying more lottery tickets will increase a person's chances of winning the lottery. However, the odds are a billion-to-one, so the argument's reasoning is flawed in generalizing this to the belief that Julian spending all his money on lottery tickets is a wise decision."
+      },
+      "B": {
+        "text": "The argument's extreme language detracts from its logical coherence.",
+        "explanation": ""
+      },
+      "C": {
+        "text": "The argument makes several logical leaps and assumptions.",
+        "explanation": "The argument claims that Julian is likely to win the lottery in the near future."
+      },
+      "D": {
+        "text": "The argument confuses correlation with causation.",
+        "explanation": "As stated, the passage argues that buying more lottery tickets causes one to win the lottery. Rather, the two events are correlated, since those who buy more tickets are more indeed more likely to win."
+      }
+    },
+    "question": "Julian plays the lottery every day. Julian always manages to buy his daily ticket, but he often struggles to pay his rent. Despite the billion-to-one odds, Julian is always close to hitting the power ball. The Local Lottery Commission's commercials state that the more lottery tickets an individual purchases the better his or her chances are at winning. Thus, Julian wisely spends his money and will likely win the lottery in the near future.",
+    "prompt": "What is the flaw in the argument's reasoning?",
+    "answer": "A",
+    "jarvisAnswer1": "A",
+    "jarvisAnswer2": "D",
+    "jarvisConf1": "0.9443",
+    "jarvisConf2": "0.0377"
+  },
+  {
+    "id": 19,
+    "choices": {
+      "A": {
+        "text": "Cindy braids her hair every day.",
+        "explanation": ""
+      },
+      "B": {
+        "text": "Cindy dislikes braiding her hair since it takes too long.",
+        "explanation": "This can't be true since Cindy braids her hair on Christmas and Easter."
+      },
+      "C": {
+        "text": "Cindy never braids her hair during July or August.",
+        "explanation": "Cindy braids her hair around Christmas and Easter, which is not in July or August."
+      },
+      "D": {
+        "text": "Cindy only braids her hair on Christmas.",
+        "explanation": "This cannot be true because it's Easter and Cindy's hair is braided."
+      }
+    },
+    "question": "Cindy always braids her hair on Christmas. Today is Easter. Cindy's hair is braided.",
+    "prompt": "If the statements above are correct, then what cannot be true?",
+    "answer": "D",
+    "jarvisAnswer1": "C",
+    "jarvisAnswer2": "D",
+    "jarvisConf1": "0.8445",
+    "jarvisConf2": "0.0844"
+  },
+  {
+    "id": 20,
+    "choices": {
+      "A": {
+        "text": "Chef: Some diners enjoy eating Chinese food with traditional chopsticks, while others like to use a fork. The best restaurants offer both utensils as options.",
+        "explanation": ""
+      },
+      "B": {
+        "text": "Coach: Some players respond to yelling, while others thrive in a more nurturing environment. The best coaches alternate between yelling and nurturing, depending on the player and situation. If the coach doesn't know how a player will respond, then it's always best to only be nurturing. I will never yell at my players without first offering a nurturing approach.",
+        "explanation": "This answer describes two ways to coach players. The best coaches use both coaching methods, like the musicians in the passage like standing room and seats. The last sentence in this answer is also similar to the passage."
+      },
+      "C": {
+        "text": "Lawyer: Some clients enjoy written updates, while others prefer to be updated on the phone. The best lawyers adapt to their clients\u2019 needs. If a client\u2019s preference can't be discerned, then it's always best to first call and then follow up with written notice. I highly prefer talking on the phone.",
+        "explanation": "Similar to the musician, the lawyer also has two means of communicating with their clients: written and via the phone. If determining a preference is impossible, the lawyer will pick one, calling; similarly, for the musician, if a mix of standing and seated room is impossible, then the musician will pick the standing room."
+      },
+      "D": {
+        "text": "Writer: Some writers prefer to type their stories, while others prefer handwriting them. The best writers always type since they can easily identify errors and edit more effectively. If a writer only writes by hand, then his or her work is always worse than those who type. I will never write my stories by hand.",
+        "explanation": ""
+      }
+    },
+    "question": "Musician: Some fans enjoy dancing in front of the stage, while others like to listen from a distance. The best music venues offer a mix of standing room and seats. If a suitable mix is impossible, then it's always best for the venue to be standing room only. Our band will never play at a concert hall without at least some standing room.",
+    "prompt": "Which of the following arguments most closely parallels the musician's argument?",
+    "answer": "B",
+    "jarvisAnswer1": "B",
+    "jarvisAnswer2": "C",
+    "jarvisConf1": "0.8922",
+    "jarvisConf2": "0.0742"
+  },
+  {
+    "id": 21,
+    "choices": {
+      "A": {
+        "text": "Anyone with a law degree and without a felony conviction is eligible to serve as an executive council member.",
+        "explanation": "This answer summarizes the argument's information."
+      },
+      "B": {
+        "text": "Only candidates eligible to serve as an executive council member can serve as the President of the Executive Council.",
+        "explanation": "The argument does not directly address the qualifications to be President of the Executive Council, only those for executive councilmembers. This answer allows the argument's conclusion to flow logically."
+      },
+      "C": {
+        "text": "A law degree is not necessary to serve as an executive council member.",
+        "explanation": "If this is assumed, then anyone can serve as an executive council member. Since Jackie commited a felony, someone else will serve as President of the Executive Council."
+      },
+      "D": {
+        "text": "If Jackie did not have a felony conviction, she would be serving as the President of the Executive Council.",
+        "explanation": ""
+      }
+    },
+    "question": "All executive councilmembers must have a law degree. Additionally, no felon can serve as an executive council member. Although she\u2019s a successful attorney, Jackie cannot serve as the President of the Executive Council since she has committed a felony.",
+    "prompt": "The argument\u2019s conclusion follows logically if which one of the following is assumed?",
+    "answer": "B",
+    "jarvisAnswer1": "B",
+    "jarvisAnswer2": "C",
+    "jarvisConf1": "0.7367",
+    "jarvisConf2": "0.1417"
+  },
+  {
+    "id": 22,
+    "choices": {
+      "A": {
+        "text": "Mouth guards protect teeth and prevent concussions.",
+        "explanation": ""
+      },
+      "B": {
+        "text": "Youth leagues should make mouth guards mandatory.",
+        "explanation": "Mouth guards are increasingly becoming required for contact sports because they protect the athletes. The argument's conclusion says youth league referees should penalize teams not using mouth guards, so therefore youth leagues should make mouth guards mandatory."
+      },
+      "C": {
+        "text": "Mouth guards save lives.",
+        "explanation": ""
+      },
+      "D": {
+        "text": "Mouth guards should always be worn during contact sports.",
+        "explanation": "Mouth guards protect athletes from concussions and damage to their teeth. As a result, they are increasingly becoming required. The tone of this answer also matches the firm conclusion of the argument."
+      }
+    },
+    "question": "Mouth guards are increasingly becoming required equipment for contact sports. Besides the obvious benefit of protecting an athlete's teeth, mouth guards also prevent concussions. Youth league referees should penalize teams with players participating without a sanctioned mouth guard.",
+    "prompt": "Which of the following most accurately expresses the argument's main conclusion?",
+    "answer": "D",
+    "jarvisAnswer1": "B",
+    "jarvisAnswer2": "D",
+    "jarvisConf1": "0.7144",
+    "jarvisConf2": "0.1302"
+  },
+  {
+    "id": 24,
+    "choices": {
+      "A": {
+        "text": "It serves as a historical example of food intolerance.",
+        "explanation": "The discussion of ancient civilizations misdiagnosing poultry intolerance is a historical example of food intolerance."
+      },
+      "B": {
+        "text": "It functions as the argument's conclusion.",
+        "explanation": "The argument's conclusion is that poultry intolerance parallels the modern phenomena of gluten intolerance."
+      },
+      "C": {
+        "text": "It provides an example of how societies can misdiagnose food intolerances.",
+        "explanation": "The reference to the ancient civilization illustrates how a society can wrongly diagnose a food intolerance. The argument is that people will eventually realize they are not actually gluten-sensitive, a misdiagnosis paralleling that of the ancient civilization's for poultry."
+      },
+      "D": {
+        "text": "It ties the argument's reasoning together.",
+        "explanation": "The argument relies on the historical precedent of poultry intolerance to claim that gluten intolerance is also misdiagnosed."
+      }
+    },
+    "question": "It is now common for people to identify as gluten intolerant. In ancient societies, it was common for people to identify as poultry intolerant. This eventually ended when people realized they were misdiagnosing poultry intolerance with food poisoning caused by mistakes in the birds\u2019 preparation. Eventually, people will realize that they are not actually gluten-sensitive.",
+    "prompt": "The reference to the ancient civilization's poultry intolerance plays which of the following roles in the argument?",
+    "answer": "C",
+    "jarvisAnswer1": "D",
+    "jarvisAnswer2": "B",
+    "jarvisConf1": "0.4512",
+    "jarvisConf2": "0.3425"
+  },
+  {
+    "id": 25,
+    "choices": {
+      "A": {
+        "text": "Increasing metabolism would significantly reduce obesity across the country.",
+        "explanation": ""
+      },
+      "B": {
+        "text": "Participants in several studies reported significant appetite reductions.",
+        "explanation": "Treating obesity with drugs that reduce appetite is not sustainable in the long run."
+      },
+      "C": {
+        "text": "Most people will not be able to afford these prescriptions since the majority of healthcare plans will not cover the new drugs.",
+        "explanation": "Since people will not be able to afford these new drugs, the advancements' effects will not be widespread in society, and thus obesity will not decline in the near future as a result."
+      },
+      "D": {
+        "text": "Nutritious food is not readily available to many people suffering from obesity.",
+        "explanation": "Since nutritious food is not readily available, the drugs will not play a large enough role in causing obesity to decline in the near future."
+      }
+    },
+    "question": "Doctor: Recent pharmaceutical advances will lead the way in weight loss. Prior to these advancements, obesity-related deaths outnumbered all other causes of death by a wide margin. The new drugs will curb appetite and increase metabolism. Thanks to these advancements, obesity will dramatically decline in the near future.",
+    "prompt": "Each of the following, if true, strengthens the doctor's argument EXCEPT:",
+    "answer": "C",
+    "jarvisAnswer1": "C",
+    "jarvisAnswer2": "B",
+    "jarvisConf1": "0.539",
+    "jarvisConf2": "0.256"
+  },
+  {
+    "id": 26,
+    "choices": {
+      "A": {
+        "text": "Slavery is not immoral.",
+        "explanation": "The practice of slavery was historically commonplace and necessary to maintain an empire like Rome. Itt is not immoral, but practical."
+      },
+      "B": {
+        "text": "Romans treated their slaves with more humanity, compassion, and respect than any other contemporary civilization.",
+        "explanation": ""
+      },
+      "C": {
+        "text": "Slavery was a necessary evil for the Romans.",
+        "explanation": "Without slavery, the Roman Empire could not have been sustained. The argument also suggests that the practice may be immoral or illegal, hence serving as an evil, albeit a necessary evil."
+      },
+      "D": {
+        "text": "The Roman Empire would have collapsed earlier without enslaving new peoples.",
+        "explanation": "The last sentence clearly states the Roman Empire was built upon and depended on slaves. Hence, without enslaving new people, the Roman Empire would have collapsed much earlier."
+      }
+    },
+    "question": "Historian: Roman nobles, known as patricians, often owned dozens of slaves. It was extremely common in ancient Rome. Roman society did not consider the practice to be immoral or illegal in any way. Rome would simply enslave the many people conquered by the Empire. A fresh supply of slaves was integral to sustaining the Roman Empire.",
+    "prompt": "Which one of the following is most strongly supported by the historian's argument?",
+    "answer": "D",
+    "jarvisAnswer1": "D",
+    "jarvisAnswer2": "A",
+    "jarvisConf1": "0.8351",
+    "jarvisConf2": "0.1376"
+  },
+  {
+    "id": 27,
+    "choices": {
+      "A": {
+        "text": "Students who have to maintain a job to finance their education cannot achieve high grade point averages.",
+        "explanation": ""
+      },
+      "B": {
+        "text": "The scholarships were not primarily awarded on the basis of the student\u2019s high grade point average.",
+        "explanation": "If scholarships WERE awarded based on the student's high GPA, then the adminstrator's conclusion may not be true since it would not be the effects of the scholarship, but rather the student's innate talents. If the scholarships were awarded based on something other than GPA, the conclusion would follow."
+      },
+      "C": {
+        "text": "Intensive studying is more influential on a student\u2019s academic performance than is controlling one\u2019s stress level.",
+        "explanation": ""
+      },
+      "D": {
+        "text": "Financial stress and restricted study time affect students\u2019 academic performance similarly.",
+        "explanation": "Both of the factors in this answer lower students' academic performance, supporting the conclusion."
+      }
+    },
+    "question": "College Administrator: The recent evaluation of our students\u2019 academic performance revealed that in general, the students who are on full scholarships have higher grade point averages than those students who must finance school via loans and/or jobs. When school expenses are covered by scholarships, students evade the stress induced by the financial burden of paying tuition bills. It also frees up their time, which enables them to study more instead of work.",
+    "prompt": "The administrator's conclusion follows logically if which one of the following is assumed?",
+    "answer": "B",
+    "jarvisAnswer1": "D",
+    "jarvisAnswer2": "B",
+    "jarvisConf1": "0.7916",
+    "jarvisConf2": "0.1283"
+  },
+  {
+    "id": 28,
+    "choices": {
+      "A": {
+        "text": "Reminisce about their lives.",
+        "explanation": ""
+      },
+      "B": {
+        "text": "Fear they're about to die.",
+        "explanation": ""
+      },
+      "C": {
+        "text": "Become very interested in evaluating the events of the last decade.",
+        "explanation": "The argument claims that people in their last years look back on the events of their entire lives. Similarly, at the end of a decade, people will start to look back and evaluate the events that happened during that decade."
+      },
+      "D": {
+        "text": "Throw a big party.",
+        "explanation": "The argument claims that people in their last years look back fondly and celebrate their lives. Similarly, at the end of a decade, it would make sense for people to throw a big party."
+      }
+    },
+    "question": "A decade can be characterized just like an individual. Decades have specific character and unique quirks. They all start with a departure from the past decade and develop their personality throughout their timespans. Just as people in their twilight years start to look back on the events of their lives, people at decade's end, ______.",
+    "prompt": "Which one of the following most logically completes the argument?",
+    "answer": "C",
+    "jarvisAnswer1": "C",
+    "jarvisAnswer2": "D",
+    "jarvisConf1": "0.9528",
+    "jarvisConf2": "0.031"
+  },
+  {
+    "id": 30,
+    "choices": {
+      "A": {
+        "text": "All of the nearby businesses are not profitable.",
+        "explanation": ""
+      },
+      "B": {
+        "text": "Foot traffic is greater across the street.",
+        "explanation": "Since foot traffic is greater across the street, it cannot be the case that Angela's Hair Salon is successful only due to their location."
+      },
+      "C": {
+        "text": "Angela's Hair Salon used to be located at a different location, and the business was significantly less successful.",
+        "explanation": "Since the hair salon is more succesful at the new location, the newfound sucesss must be because of the new location."
+      },
+      "D": {
+        "text": "Angela's Hair Salon employs the town's best hairdresser, whose skills are well known in the community.",
+        "explanation": "This answer weakens the argument by providing an alternative explanation for why Angela's Hair Salon is so successful. It is due to the great hairdresser, not the salon's location."
+      }
+    },
+    "question": "Angela's Hair Salon no longer takes reservations. Foot traffic already draws enough customers into the business. The Hair Salon's success is solely due to their terrific location.",
+    "prompt": "Which one of the following, if true, most significantly weakens the argument?",
+    "answer": "D",
+    "jarvisAnswer1": "D",
+    "jarvisAnswer2": "C",
+    "jarvisConf1": "0.8678",
+    "jarvisConf2": "0.0965"
+  },
+  {
+    "id": 36,
+    "choices": {
+      "A": {
+        "text": "Geoffrey ate popcorn during the Boy Wizard Chronicles.",
+        "explanation": ""
+      },
+      "B": {
+        "text": "Geoffrey has read the critics\u2019 reviews of the Boy Wizard Chronicles.",
+        "explanation": ""
+      },
+      "C": {
+        "text": "Geoffrey watched the Boy Wizard Chronicles' trailer and purchased popcorn at the theater.",
+        "explanation": "Geoffrey watches the trailer for every movie he watches and buys popcorn at the theater."
+      },
+      "D": {
+        "text": "Geoffrey watched the Boy Wizard Chronicles\u2019 trailer and drank a bottle of water during the show.",
+        "explanation": "Geoffrey always watches the trailer for the movies he sees, and always buys a bottle of water at the theater."
+      }
+    },
+    "question": "Geoffrey never attends a movie without watching the trailer and generally tries to read the reviews prior to the show. At the theater, Geoffrey sometimes buys popcorn and always buys a bottle of water. Geoffrey recently saw the eighth installment of the Boy Wizard Chronicles.",
+    "prompt": "Based on these true statements, which of the following must be true?",
+    "answer": "D",
+    "jarvisAnswer1": "C",
+    "jarvisAnswer2": "D",
+    "jarvisConf1": "0.7742",
+    "jarvisConf2": "0.1377"
+  }
+]
