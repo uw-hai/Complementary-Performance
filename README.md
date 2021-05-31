@@ -4,12 +4,20 @@ This repository contains task examples and the collected experiment data for [ou
 
 ```bibtex
 @inproceedings{bansal2021complementary,
-    title={Does the Whole Exceed its Parts? The Effect of AI Explanations on Complementary Team Performance}, 
-    author={Gagan Bansal and Tongshuang Wu and Joyce Zhou and Raymond Fok and Besmira Nushi and Ece Kamar and Marco Tulio Ribeiro and Daniel S. Weld},
-    year={2021},
-    doi = {10.1145/3411764.3445717},
+    author = {Bansal, Gagan and Wu, Tongshuang and Zhou, Joyce and Fok, Raymond and Nushi, Besmira and Kamar, Ece and Ribeiro, Marco Tulio and Weld, Daniel},
+    title = {Does the Whole Exceed Its Parts? The Effect of AI Explanations on Complementary Team Performance},
+    year = {2021},
+    isbn = {9781450380966},
     publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3411764.3445717},
+    doi = {10.1145/3411764.3445717},
     booktitle = {Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems},
+    articleno = {81},
+    numpages = {16},
+    keywords = {Human-AI teams, Augmented intelligence, Explainable AI},
+    location = {Yokohama, Japan},
+    series = {CHI '21}
 }
 ```
 
