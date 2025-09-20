@@ -83,8 +83,8 @@ choice: # the final decision of the human worker,
 y: # the groundtruth label,
 pred: # the top-1 prediction from the model,
 conf: # the corresponding confidence of the top 1 prediction,
-conf2: # the top-2 prediction from the model. Only available for LSAT; For the binary Beer and AmzBook, it is just 1-conf.
-pred2: # the corresponding confidence of the top 2 prediction, only available for LSAT.
+pred2: # the top-2 prediction from the model. Only available for LSAT; For the binary Beer and AmzBook, it is just 1-conf.
+conf2: # the corresponding confidence of the top 2 prediction, only available for LSAT.
 ```
 
 For _Survey results_:
